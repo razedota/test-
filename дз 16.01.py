@@ -35,6 +35,7 @@ def delete_contact():
 def main():
 
     while True:
+
         print("\nТелефонна книга")
         print("1. Додати контакт")
         print("2. Знайти контакт")
@@ -50,8 +51,8 @@ def main():
             delete_contact()
         elif choice == '4':
             print("Програма завершена.")
-            break
-        else:
+        not true
+    else:
             print("Некоректний вибір, спробуйте ще раз.")
 
 
